@@ -14,9 +14,8 @@ jobs:
           pip install setuptools
           pip install jsonschema
           pip install pyyaml
-          python setup.py develop
+          pip install .
           sudo apt install gettext
-          python setup.py compile_catalog
           cd dep
           echo "Generating Data Element Profiles"
           echo "Use of Administrative Aircraft"
