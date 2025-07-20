@@ -11,6 +11,7 @@ jobs:
       - uses: actions/setup-python@v3
   
       - run: |
+          pip install setuptools
           pip install jsonschema
           pip install pyyaml
           python setup.py develop

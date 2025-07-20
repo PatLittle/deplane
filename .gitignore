@@ -2,3 +2,4 @@ __pycache__
 deplane.egg-info
 *.code-workspace
 **/venv/**
+.python.env
