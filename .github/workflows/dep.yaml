@@ -16,6 +16,9 @@ jobs:
           pip install pyyaml
           pip install .
           sudo apt install gettext
+          cd deplane
+          cp ENG_2_Colour.docx /opt/hostedtoolcache/Python/3.13.5/x64/lib/python3.13/site-packages/deplane/ENG_2_Colour.docx
+          cd ..
           cd dep
           echo "Generating Data Element Profiles"
           echo "Use of Administrative Aircraft"
