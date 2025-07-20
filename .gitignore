@@ -3,3 +3,4 @@ deplane.egg-info
 *.code-workspace
 **/venv/**
 .python.env
+*/build/
